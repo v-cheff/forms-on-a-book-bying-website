@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>DZ-13 Forms</title>
+</head>
+<body>
+  <div class="popup">
+    <div class="popup-content">
+      <h2>Имя пользователя, спасибо за заказ</h2>
+      <p>Такой-то товар будет доставлен в
+        такую-то дату по такому-то адресу</p>
+      <button class="close-popup">Спасибо!</button>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="product">
+        <div class="img">
+          <img src="img/1.jpg" alt="img">
+        </div>
+        <h3>Чистый код</h3>
+        <p class="autor">Иван Иванов</p>
+        <p class="price">16$</p>
+        <button class="product-btn">Select</button>
+      </div>
+      <div class="product">
+        <div class="img">
+          <img src="img/2.jpg" alt="img">
+        </div>
+        <h3>Python</h3>
+        <p class="autor">Петр Петров</p>
+        <p class="price">18$</p>
+        <button class="product-btn">Select</button>
+      </div>
+      <div class="product">
+        <div class="img">
+          <img src="img/3.jpg" alt="img">
+        </div>
+        <h3>HTML5</h3>
+        <p class="autor">Name Surname</p>
+        <p class="price">20$</p>
+        <button class="product-btn">Select</button>
+      </div>
+      <div class="forms">
+        <form action="" method="GET">
+          <div class="book">
+            <label for="book">Book:</label>
+            <input id="b1" type="text" name="book" value="Book title" disabled>
+          </div>
+          <div class="clear"></div>
+          <div class="quantity">
+            <label for="quantity">Quantity:</label>
+            <input type="text" name="quantity">
+          </div>
+          <div class="clear"></div>
+          <div class="name">
+            <label for="name">Name:</label>
+            <input type="text" name="name">
+          </div>
+          <div class="clear"></div>
+          <div class="address">
+            <label for="address">Delivery address:</label>
+            <textarea id="d2" name="address"></textarea>
+          </div>
+          <div class="clear"></div>
+          <div class="date">
+            <label for="date">Delivery date:</label>
+            <input type="date" name="date">
+          </div>
+          <div class="clear"></div>
+          <div class="comment">
+            <label for="comment">Comment:</label>
+            <textarea name="comment"></textarea>
+          </div>
+          <div class="clear"></div>
+          <div class="clear"></div>
+          <button type="button" class="form-btn">Buy</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
